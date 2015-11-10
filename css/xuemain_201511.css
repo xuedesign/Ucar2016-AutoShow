@@ -1,34 +1,31 @@
-/**
+/********************************************
 *
-* My example Project
-* This project is just an example and is used for demoing the CSSdoc system.
-*
-* @project    example 
+* @project    UCAR 2016 online auto-show
 * @Author     Elmo Wu <elmo@xuedesign.tw>
 * @copyright  2015 xuedesign studio
-* @version    1.0 - 20150731
+* @version    1.0 - 201511
 *
 *
 * 1.通用
 * 2.首頁
-	* 上方區塊
-	* 中間區塊
-    * 下方區塊
-    * 版權列
-*/
+	2-1. 上方區塊
+	2-2. 中間區塊
+    2-3. 贊助廠商
+    2-4. 版權列
+*********************************************/
 
 /* 1. 通用 
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
 body{
-	background:#FFF;
+	background: url(../images/bg_site.jpg) no-repeat center top fixed #0e101f;
 	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
 	font-size:100%;
-	line-height:20px;
-	color:#565555}
-a:link {text-decoration:underline; color:#00adee}
-a:visited {text-decoration:underline; color:#8c8c8c}
-a:hover {text-decoration:none; color:#F50}
+	line-height:22px;
+	color:#2b2b2b}
+a:link {text-decoration:none; color:#006bab}
+a:visited {text-decoration:none; color:#666}
+a:hover {text-decoration:underline; color:#F50}
 form{margin:0; padding:0}
 image{border:0}
 
@@ -38,58 +35,73 @@ image{border:0}
 /* 2. 首頁  
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
-#wrap{ display:block}
-#page-top{ display:block; width:100%; height:100px; background:#F90}
-#box_top{
-	display:block;
-	position:relative; 
-	width:1240px;
-	margin:0 auto}
-#logo{
-	display:block;
-	float:left;
-	width:300px;
-	height:50px;
-	font-size:1.125em;
-	line-height:40px;
-	border:3px solid #C00;
-	text-align:center;
-	margin-top:20px;
-	padding-top:8px}	
-#nav{
-	display: block;
-	float:right;
-	width:940px;
-	padding-top:25px}
-#container{ display:block; width:1240px; margin:50px auto}
-#box_main{ min-height:300px; border:2px solid #9C0; padding:30px}
-#box_left{ min-height:300px; border:2px solid #CCC; padding:30px}
-	
-/*0.0 完美底部佈局---------------------------*/
-html, body, #wrap {height: 100%;}
-body > #wrap {height: auto; min-height: 100%;}
-#main_content{padding-bottom:50px}
-.clearfix:after{content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden}
-.clearfix {display: inline-block}
-/* Hides from IE-mac \*/
-* html .clearfix { height: 1%}
-.clearfix {display: block}
-/* End hide from IE-mac */
+#wrap{ 
+   display:block; 
+   width:1180px; 
+   margin:0 auto;
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000}
 
-/*選單*/
-  
-   
-/*版權列*/
-footer{
+/* 2-1. 上方區塊 */
+header{ 
+   display:block;
+   position: relative; 
+   width:1180px; 
+   height:139px; 
+   margin:0 auto; 
+   background:url(../images/bg_hdr.jpg) no-repeat}
+h1 a{
 	display:block;
-	width:100%;
-	height:50px;
-	margin-top: -50px;
-	background: #6CF}
-footer h3{ font-size:0.938em; text-align:center; padding-top:15px}
+	background:url(../images/bg_h1.png) no-repeat;
+	width:279px;
+	height:139px;
+	text-indent:-9999px}
 
+/* 2.2 網站主選單 */
+nav{
+	display:block; 
+	position:absolute;
+	top:100px;
+	right:0}
+nav h3{ display:none}
+.navigation li { position: relative; float: left}
+.navigation li a{display: block; width:153px; height:39px}
+.nav_01, .nav_02, .nav_03, .nav_04, .nav_05{ text-indent:-9999px; background: url(../images/btn_nav.png) no-repeat}
+.nav_01{ background-position: 0 0} 
+.nav_01:hover, .nav_01.navin{ background-position: 0 -39px}
+.nav_02{ background-position: -153px 0}
+.nav_02:hover, .nav_02.navin, nav li:hover a.nav_02{ background-position: -153px -39px}
+.nav_03{ background-position: -306px 0}
+.nav_03:hover, .nav_03.navin, nav li:hover a.nav_03{ background-position: -306px -39px}
+.nav_04{ background-position: -459px 0}
+.nav_04:hover, .nav_04.navin{ background-position: -459px -39px}
+.nav_05{ background-position: -612px 0}
+.nav_05:hover, .nav_05.navin{ background-position: -612px -39px}
+.navigation ul{
+	display: none;
+	float: left;
+	position: absolute;			
+	left: 0;
+	z-index:999;	
+	margin: 0}
+.navigation li:hover > ul{display: block}			
+.navigation ul a {
+	width:141px;
+	height:25px;
+	padding: 5px 6px;
+	font-size:1em;	
+	color: #fff;
+	text-align:center;		
+	background: #19194B;
+	overflow:hidden;
+	border-bottom:1px solid #898989}
+.navigation ul a:hover { color:#2c2c2c; background:#FECB00; text-decoration:none}	
 
+/* 2.3 中間區塊 */
+#container{
+	display:block;
+	width:1180px;
+	min-height:500px;
+	margin:0 auto;
+	background: url(../images/bg_container.png) no-repeat}

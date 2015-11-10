@@ -12,7 +12,6 @@
 <title>首頁│U-CAR 2016台北新車大展</title>
 <link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="css/xuemain_201511.css"/>
-<link rel="stylesheet" href="css/nav.css"/>
 <link rel="stylesheet" href="css/animate.css"/>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,52 +23,47 @@
 
 <body>
  <div id="wrap">
-    <div id="main_content" class="clearfix">
-         
-         <div id="page-top"><!-- 頁首區塊 -->
-            <div id="box_top">
-                  <h1 id="logo">開始設計000</h1>
-                  <nav id="nav" class="rmm style">
-                      <ul>
-                          <li>
-                              <a href="#">單元一</a>
-                              <ul>
-                                  <li><a href="#">子單元1</a></li>
-                                  <li><a href="#">子單元2</a></li>
-                                  <li><a href="#">子單元3</a></li>
-                                  <li><a href="#">子單元4</a>
-                                      <ul>
-                                          <li><a href="#">Other 1</a></li>
-                                          <li><a href="#">Other 2</a></li>
-                                      </ul></li>
-                              </ul>
-                          </li>
-                          <li><a href="#">單元二</a></li>
-                          <li>
-                              <a href="#">單元三</a>
-                              <ul>
-                                  <li><a href="#">子單元1</a></li>
-                                  <li><a href="#">子單元2</a></li>
-                                  <li><a href="#">子單元3</a></li>
-                              </ul>
-                          </li>
-                          <li><a href="#">單元四</a></li>
-                      </ul>
-                  </nav>
-             </div>
-         </div><!--//END 頁首區塊 -->
-         
-         
-         <div id="container"></div>
-         <footer>&copy;2015 MediaBrilliance System Corporation. All Rights Reserved.</footer>
-         
+    <header>
+        <h1><a href="index.html" title="返回首頁">Welcom to 2016 Taipei Auto Show</a></h1>
+        <h2 class="hidden">UCAR 2016世界新車大展<br>展期：2015/12/26~2016/01/03</h2>
+        <nav>
+            <h3>網站主選單</h3>
+        	<ul class="navigation">
+        		<li><a href="index.html" title="首頁" class="nav_01">首頁</a></li>
+        		<li><a href="#" title="品牌館" class="nav_02">品牌館</a>
+                    <ul>
+                    	<li>
+                    		<a href="brand_index.html" title="車廠品牌01">車廠品牌01</a>
+                    		<a href="#" title="車廠品牌02">車廠品牌02</a>
+                    		<a href="#" title="車廠品牌03">車廠品牌03</a>
+                    	</li>
+                    </ul>
+                </li>
+        		<li><a href="#" title="車展必看" class="nav_03">車展必看</a>
+                    <ul>
+                    	<li>
+                    		<a href="topic.html" title="車廠品牌01">車廠品牌01</a>
+                    		<a href="#" title="車廠品牌02">車廠品牌02</a>
+                    		<a href="#" title="車廠品牌03">車廠品牌03</a>
+                    	</li>
+                    </ul>
+                </li>
+        		<li><a href="online_shop.html" title="售後商品" class="nav_04">售後商品</a></li>
+        		<li><a href="news_list.html" title="車展報導" class="nav_05">車展報導</a></li>
+        	</ul>
+        </nav>
+    </header>
+    
+    <div id="container">
+    
     </div>
+    <footer>&copy;2015 MediaBrilliance System Corporation. All Rights Reserved.</footer>
+         
  </div>
  
  
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
-<script src="script/responsivemultimenu.js"></script>
 <script src="script/wow.min.js"></script>
 <script>wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();</script>  
 <script src="script/jquery.lazyload.js"></script>
