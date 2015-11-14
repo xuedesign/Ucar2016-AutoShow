@@ -9,9 +9,10 @@
 * 1.通用
 * 2.首頁
 	2-1. 上方區塊
-	2-2. 中間區塊
-    2-3. 贊助廠商
-    2-4. 版權列
+	2-2. 網站主選單
+	2-3. 中間區塊
+    2-4. 贊助廠商
+    2-5. 版權列
 *********************************************/
 
 /* 1. 通用 
@@ -101,7 +102,38 @@ nav h3{ display:none}
 /* 2.3 中間區塊 */
 #container{
 	display:block;
+	position:relative;
 	width:1180px;
 	min-height:500px;
 	margin:0 auto;
 	background: url(../images/bg_container.png) no-repeat}
+.yeallow-arrow{
+	display:block;
+	position:absolute;
+	bottom:193px;
+	right:0;
+	background: url(../images/bg_yeallow-arrow.png) no-repeat;
+	width:86px;
+	height:77px}
+	
+/* 2.4 贊助廠商 */	
+#box_sponsored{
+	display:block;
+	position:absolute;
+	bottom:0;
+	width:1180px;
+	height:193px;
+	background:url(../images/bg_Sponsored.png) no-repeat}
+	
+/* 2.5 版權列 */
+footer{ 
+    display:block;
+	width:1180px;
+	height:109px;
+	background:url(../images/bg_copyright.jpg) no-repeat}
+footer p{
+	font-size:0.813em;
+	line-height:25px;
+	color:#fff;
+	text-align:center;
+	padding-top:25px}				
