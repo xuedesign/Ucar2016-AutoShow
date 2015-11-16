@@ -115,6 +115,50 @@ nav h3{ display:none}
 	background: url(../images/bg_yeallow-arrow.png) no-repeat;
 	width:86px;
 	height:77px}
+#bar_partner{
+	display:block;
+	position:absolute;
+	top:0;
+	left:-29px;
+	background:url(../images/bg_barpartner.png) no-repeat;
+	width:1138px;
+	height:85px;
+	padding:0 90px 0 140px}
+#bar_partner li{
+	display:inline-block;
+	width:168px;
+	height:42px;
+	overflow:hidden;
+	padding-top:5px}
+#bar_partner li:hover{ background:url(../images/bg_barpartner-hover.png) no-repeat}
+#bar_partner img{
+	display:block;
+	width:125px;
+	height:36px;
+	margin:0 auto; 
+    vertical-align:middle}
+#pagemain_index{ display:block; width:1044px; margin:0 auto; padding:76px 0 210px 0}
+.box_complex{
+	display:block;
+	float:left;
+	width:725px}
+.banner{
+	display:block;
+	width:725px;
+	height:420px;
+	background: url(../images/index_16.png) no-repeat;
+	margin-bottom:17px}
+.news{
+	display:block;
+	width:725px;
+	height:125px;
+	background:url(../images/bg_news.png) no-repeat}	
+.box_hotsale{
+	display:block;
+	float:right;
+	width:298px;
+	height:562px;
+	background:url(../images/index_18.png) no-repeat}				
 	
 /* 2.4 贊助廠商 */	
 #box_sponsored{
