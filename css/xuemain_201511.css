@@ -1,6 +1,6 @@
 /********************************************
 *
-* @project    UCAR 2016 online auto-show
+* @project    UCAR 2016 Taipei AutoShow
 * @Author     Elmo Wu <elmo@xuedesign.tw>
 * @copyright  2015 xuedesign studio
 * @version    1.0 - 201511
@@ -257,7 +257,48 @@ nav h3{ display:none}
 #bar_topic ul{ padding-right:30px}
 #bar_topic li{
 	display: inline;
-	margin-left:13px}				
+	margin-left:13px}
+
+.box_hot{
+	display:block;
+	width:451px;
+	height:361px;
+	margin:22px 0 30px;
+	padding:90px 30px 36px}
+.box_hot a{ text-decoration:none; color:#024587}
+.box_hot a:hover{ text-decoration:underline; color:#F50}
+.box_hot h4{
+	display: block;
+	width:451px;
+	height:28px;
+	font-size:1em;
+	line-height:28px;
+	overflow:hidden}
+.box_hot img{
+	display:block;
+	float:left;
+	width:221px;
+	height:150px;
+	margin-top:5px}
+.box_hot p{
+	display:block;
+	float:right;
+	width:215px;
+	height:150px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:22px;
+	margin:5px 0 15px}
+.box_hot ul{ margin-left:15px; padding-top:10px}	
+.box_hot li{
+	height:25px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:22px;
+	background:url(../images/icon_purple.png) 0 6px no-repeat;
+	padding-left:15px}		
+.hotnews{ float:left; background:url(../images/bg_hotnews.png) no-repeat}
+.hotvideo{ float:right; background:url(../images/bg_hotvideo.png) no-repeat}					
 	
 /* 2.4 贊助廠商 */	
 #box_sponsored{
