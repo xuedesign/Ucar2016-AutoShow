@@ -28,22 +28,20 @@
         <nav>
             <h3>網站主選單</h3>
         	<ul class="navigation">
-        		<li><a href="index.html" title="首頁" class="nav_01">首頁</a></li>
+        		<li><a href="index.html" title="首頁" class="nav_01 navin">首頁</a></li><!--當處於該單元時，class請加上"navin"-->
         		<li><a href="#" title="品牌館" class="nav_02">品牌館</a>
                     <ul>
                     	<li>
-                    		<a href="brand_index.html" title="車廠品牌01">車廠品牌01</a>
-                    		<a href="#" title="車廠品牌02">車廠品牌02</a>
-                    		<a href="#" title="車廠品牌03">車廠品牌03</a>
+                    		<a href="brand_index.html" title="TOYOTA">TOYOTA</a>
+                    		<a href="#" title="LEXUS">LEXUS</a>
                     	</li>
                     </ul>
                 </li>
         		<li><a href="#" title="車展必看" class="nav_03">車展必看</a>
                     <ul>
                     	<li>
-                    		<a href="topic.html" title="車廠品牌01">車廠品牌01</a>
-                    		<a href="#" title="車廠品牌02">車廠品牌02</a>
-                    		<a href="#" title="車廠品牌03">車廠品牌03</a>
+                    		<a href="topic.html" title="TOYOTA">TOYOTA</a>
+                    		<a href="#" title="LEXUS">LEXUS</a>
                     	</li>
                     </ul>
                 </li>
@@ -55,23 +53,88 @@
     
     <div id="container">
        <div id="bar_partner">
-          <ul><!--LOGO圖片建議尺寸：125*36px-->
-          	<li><a href="brand_index.html" title="HONDA"><img src="images/LOGO-01.png" alt="*"></a></li>
-          	<li><a href="#" title="LEXUS"><img src="images/LOGO-02.png" alt="*"></a></li>
-          	<li><a href="#" title="MITSUBISHI"><img src="images/LOGO-03.png" alt="*"></a></li>
-            <li><a href="brand_index.html" title="HONDA"><img src="images/LOGO-01.png" alt="*"></a></li>
-          	<li><a href="#" title="LEXUS"><img src="images/LOGO-02.png" alt="*"></a></li>
-          	<li><a href="#" title="MITSUBISHI"><img src="images/LOGO-03.png" alt="*"></a></li>
+          <ul><!--LOGO圖片尺寸：125*36px-->
+          	<li><a href="brand_index.html" title="前往TOYOTA品牌館"><img src="images/LOGO-04.png" alt="*"></a></li>
+          	<li><a href="#" title="前往LEXUS品牌館"><img src="images/LOGO-02.png" alt="*"></a></li>
           </ul>
        </div>
        
        <div id="pagemain_index">
-          <div class="box_complex">
-             <div class="banner"></div>
-             <div class="news"></div>
+          <div id="box_complex">
+             
+             <!-- Banner 輪播 -->
+             <div id="slides">
+                <div class="slides_container">
+                   <div>
+						<a href="brand_mook.html" title="風格我說了算！Toyota Altis Style+登場主宰潮流"><img src="images/pic_sample-01.jpg" alt="*"></a>
+						<div class="caption" style="bottom:0">
+							<p>風格我說了算！Toyota Altis Style+登場主宰潮流</p>
+						</div>
+					</div>
+                    <div>
+						<a href="brand_mook.html" title="Hybrid車型125萬元起，Toyota小改款RAV4上市"><img src="images/pic_sample-02.jpg" alt="*"></a>
+						<div class="caption">
+							<p>Hybrid車型125萬元起，Toyota小改款RAV4上市</p>
+						</div>
+					</div>
+                    <div>
+						<a href="brand_mook.html" title="增壓輕跑車，Toyota S-FR將加入1.2渦輪動力"><img src="images/pic_sample-03.jpg" alt="*"></a>
+						<div class="caption">
+							<p>增壓輕跑車，Toyota S-FR將加入1.2渦輪動力</p>
+						</div>
+					</div>
+                </div><!--//end .slides_container-->
+             </div><!--//end #slides-->
+             
+             
+             <!-- 相關消息,固定三則 -->
+             <div id="bar_news">
+                <ul>
+                	<li><a href="news_main.html" title="Hyundai集團旗艦呼之慾出，Genesis G90定12月9日韓國發表">[車壇新聞] Hyundai集團旗艦呼之慾出，Genesis G90定12月9日韓國發表</a></li>
+                	<li><a href="news_main.html" title="Euro NCAP再出招，新增動態行人防撞系統測試">[專題報導] Euro NCAP再出招，新增動態行人防撞系統測試</a></li>
+                	<li><a href="news_main.html" title="挑戰同級最佳油耗，Kia首輛油電休旅Niro將現身">[車壇新聞] 挑戰同級最佳油耗，Kia首輛油電休旅Niro將現身</a></li>
+                </ul>
+             </div>
+           </div><!--//end #box_complex-->
+           
+           
+           <!--右側活動連結-->
+           <div id="box_hotevent">
+              <ul id="portfolio">
+                 <li><a href="news_main.html" title="Lexus RX 200t旗艦版試駕">
+                         <img src="images/pic_sample-04.jpg" alt="Lexus RX 200t"><!-- 圖片尺寸：298*300px-->
+                         <h3>中年大叔的華麗搖滾，Lexus RX 200t旗艦版試駕</h3>
+                         <p>2011年的北美圓石灘嘉年華會中，Lexus發表第4代GS，同步也揭示當在家族設計語彙的「Spindle Grille紡錘型水箱護罩」，這也是現行Lexus家族成員一大辨識特徵；隨後在陸續進行的小改款車型上，可以清楚發現紡錘型水箱護罩的進化版本，以更加霸氣、甚至從側面看過去，清楚能發現其前掠態勢的設計，讓Lexus車款有著更動感的氣勢。</p>
+                      </a>
+                 </li>
+                 <li><a href="#" title="Lexus RX美國試駕">
+                         <img src="images/pic_sample-05.jpg" alt="Lexus RX"><!-- 圖片尺寸：298*300px-->
+                         <h3>匠心之作─Lexus RX美國試駕</h3>
+                         <p>雖然外觀設計如此前衛大膽，不過你不用擔心打開新RX車門，會出現源自未來世界的戰鬥機艙，回歸Lexus所秉持的日式精緻作風，讓進入車內的人，第一眼印象與SUV的定位無法聯想，而雙手所可觸碰、以及眼睛所能看到的事物，還能感受到師匠技藝下所營造的暖心溫度。</p>
+                      </a>
+                 </li>
+                 <li><a href="#" title="沒有渦輪、經濟取向也不賴─Lexus ES 200試駕">
+                         <img src="images/pic_sample-06.jpg" alt="Lexus ES 200"><!-- 圖片尺寸：298*300px-->
+                         <h3>沒有渦輪、經濟取向也不賴─Lexus ES 200試駕</h3>
+                         <p>Lexus麾下的ES車系，乃是採用前置前驅的車格設定，尺碼雖然與家族另一位成員GS車系相近，同為豪華中大型級距戰力，但相比於GS採用前置後驅的配置，兩者間的產品定位不同不言而喻，價格當然也大相逕庭；簡單來說，ES主打豪華中大型之車格，但更具經濟取向之優勢，而這也是前面所提到的，消費族群需求不同，因此Lexus並未藉由ES車系的小改款，同步導入200t車型，而是以ES 200來取代既有的ES 250。</p>
+                      </a>
+                 </li>
+              </ul>
            </div>
-           <div class="box_hotsale"></div>
            <br class="clean">
+           
+           <!--推薦必看，固定三則-->
+           <div id="bar_topic">
+              <h3>推薦必看</h3>
+              <ul>
+              	<li><a href="topic.html" title="TOYOTA"><img src="images/pic_topic-01.png" alt="*"></a></li><!-- 圖片尺寸：300*100px-->
+              	<li><a href="#" title="LEXUS"><img src="images/pic_topic-02.png" alt="*"></a></li>
+              	<li><a href="#" title="TOYOTA"><img src="images/pic_topic-01.png" alt="*"></a></li>
+              </ul>
+           </div>
+           
+           
+           
         </div>
        
        
@@ -87,9 +150,17 @@
  
  
 <script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="script/slides.min.jquery.js"></script>
+<script>
+$(function(){$("#slides").slides({preload:!0,preloadImage:"images/loading.gif",play:5e3,pause:2500,hoverPause:!0,animationStart:function(){$(".caption").animate({bottom:-35},100)},animationComplete:function(o){$(".caption").animate({bottom:0},200),window.console&&console.log&&console.log(o)}})});
+</script>
+<script src="script/jquery.innerfade.js"></script>
+<script>
+$(document).ready(function(){$("ul#portfolio").innerfade({speed:1e3,timeout:5e3,type:"sequence",containerheight:"220px"})});
+</script>
 <script src="script/wow.min.js"></script>
 <script>wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();</script>  
-<script src="script/jquery.lazyload.js"></script>
+<!--<script src="script/jquery.lazyload.js"></script>-->
 <script src="script/web_set.js"></script>
 </body>
 </html>

@@ -121,9 +121,9 @@ nav h3{ display:none}
 	top:0;
 	left:-29px;
 	background:url(../images/bg_barpartner.png) no-repeat;
-	width:1138px;
+	width:1098px;
 	height:85px;
-	padding:0 90px 0 140px}
+	padding-left:140px}
 #bar_partner li{
 	display:inline-block;
 	width:168px;
@@ -138,27 +138,126 @@ nav h3{ display:none}
 	margin:0 auto; 
     vertical-align:middle}
 #pagemain_index{ display:block; width:1044px; margin:0 auto; padding:76px 0 210px 0}
-.box_complex{
+#box_complex{
 	display:block;
 	float:left;
 	width:725px}
-.banner{
-	display:block;
+#slides{
 	width:725px;
 	height:420px;
-	background: url(../images/index_16.png) no-repeat;
 	margin-bottom:17px}
-.news{
+.slides_container {
 	display:block;
+	position:relative;
 	width:725px;
-	height:125px;
-	background:url(../images/bg_news.png) no-repeat}	
-.box_hotsale{
+	height:420px;
+	overflow:hidden}
+.slides_container li{ display:inline-block}	
+.caption {
+	position:absolute;
+	bottom:-35px;
+	height:40px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:685px;
+	font-size:1em;
+	line-height:35px;
+	color:#fff;
+	letter-spacing:1px}
+	
+.pagination {
+	position:absolute;
+	top:430px;
+	left:720px;
+	z-index:999;
+	width:100px;
+	margin:0 auto 0}
+.pagination li {
+	float:left;
+	margin:0 1px}
+.pagination li a {
 	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden}
+.pagination li.current a{background-position:0 -12px}
+
+#bar_news{
+	display:block;
+	width:570px;
+	height:98px;
+	background:url(../images/bg_news.png) no-repeat;
+	padding:22px 20px 0 135px}
+#bar_news li{
+	width:560px;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap}	
+#bar_news li a{
+	font-size:.813em;
+	line-height:26px;
+	color:#FFF;
+	padding-bottom:8px}
+#bar_news li a:hover{ color:#FFD400; text-decoration:none}
+		
+#box_hotevent{
+	display:block;
+	position:relative;
 	float:right;
 	width:298px;
 	height:562px;
-	background:url(../images/index_18.png) no-repeat}				
+	background:url(../images/bg_hotevent.png) no-repeat}
+#portfolio a>h3{
+	display:block;
+	position:absolute;
+	top:310px;
+	left:47px;
+	width:220px;
+	height:15px;
+	padding:5px 15px;
+	overflow:hidden;
+	font-size:1em;
+	line-height:25px;
+	color:#fff}
+#portfolio a:hover>h3{ color:#FFD400; text-decoration:none}
+#portfolio a>p{
+	display:block;
+	position:absolute;
+	top:376px;
+	left:0;
+	width:238px;
+	height:150px;
+	padding:0 30px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:25px;
+	color:#2b2b2b}
+#portfolio a:hover>p{ color:#F50; text-decoration:none}	
+
+#bar_topic{
+	display:block;
+	position:relative;
+	width:1083px;
+	margin-top:20px;
+	padding-left:97px}
+#bar_topic h3{
+	display:block;
+	position:absolute;
+	top:-18px;
+	left:-50px;
+	width:140px;
+	height:115px;
+	background:url(../images/h3_topic.png) no-repeat;
+	text-indent:-9999px}
+#bar_topic ul{ padding-right:30px}
+#bar_topic li{
+	display: inline;
+	margin-left:13px}				
 	
 /* 2.4 贊助廠商 */	
 #box_sponsored{
