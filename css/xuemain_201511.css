@@ -124,11 +124,8 @@ nav h3{ display:none}
 	height:85px}
 #bar_partner{width:1098px; padding-left:140px; background:url(../images/bg_barpartner.png) no-repeat}
 #bar_brand {width:1112px; padding:0 60px 0 66px; background:url(../images/bg_barbrand.png) no-repeat}
-#bar_partner li, #bar_brand li{
-	display:inline-block;
-	height:42px;
-	overflow:hidden}
-#bar_partner li{ width:168px; padding-top:5px}	
+#bar_partner li, #bar_brand li{ display:inline-block; overflow:hidden}
+#bar_partner li{ width:168px; height:42px; padding-top:5px}	
 #bar_partner li:hover{ background:url(../images/bg_barpartner-hover.png) no-repeat}
 #bar_partner img{
 	display:block;
@@ -141,9 +138,9 @@ nav h3{ display:none}
 	float:left;
 	width:230px;
 	height:45px}
-#bar_brand h3 img{ height:36px; margin-top:5px}
+#bar_brand h3 img{ height:36px; margin-top:8px}
 #bar_brand ul{ display:block; float:left; width:770px; margin:0; padding:0}	
-#bar_brand li{ width:135px; margin:0 0 0 15px}
+#bar_brand li{ width:135px; height:47px; margin:0 0 0 15px}
 .bnav_01, .bnav_02, .bnav_03, .bnav_04, .bnav_05{
 	display:block;
 	width:135px;
@@ -159,11 +156,11 @@ nav h3{ display:none}
 .bnav_04:hover, .bnav_04.navin{ background-position: 0 -376px}	
 .bnav_05{ background-position: 0 -188px}
 .bnav_05:hover, .bnav_05.navin{ background-position: 0 -423px}		
-#bar_brand p{ font-size:.938em; line-height:22px; color:#FFF}
+#bar_brand p{ font-size:.938em; line-height:20px; color:#FFF}
 #bar_brand p span{ 
     font-family: "Arial Black", Gadget, sans-serif; 
 	font-size:4em;
-	line-height:48px;
+	line-height:51px;
 	margin-left:15px; 
 	padding-right:10px}
 	
@@ -234,11 +231,14 @@ nav h3{ display:none}
 	color:#FFF;
 	padding-bottom:8px}
 #bar_news li a:hover{ color:#FFD400; text-decoration:none}
-		
+
+#box_aside{
+	display:block;
+	float:right;
+	width:298px}		
 #box_hotevent{
 	display:block;
 	position:relative;
-	float:right;
 	width:298px;
 	height:562px;
 	background:url(../images/bg_hotevent.png) no-repeat}
