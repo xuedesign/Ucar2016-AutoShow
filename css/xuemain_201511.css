@@ -13,6 +13,8 @@
 	2-3. 中間區塊
     2-4. 贊助廠商
     2-5. 版權列
+* 3.品牌館
+    3-1. 總覽  
 *********************************************/
 
 /* 1. 通用 
@@ -110,7 +112,7 @@ nav h3{ display:none}
 .yeallow-arrow{
 	display:block;
 	position:absolute;
-	bottom:193px;
+	bottom:113px;
 	right:0;
 	background: url(../images/bg_yeallow-arrow.png) no-repeat;
 	width:86px;
@@ -123,7 +125,7 @@ nav h3{ display:none}
 	background:url(../images/bg_barpartner.png) no-repeat;
 	height:85px}
 #bar_partner{width:1098px; padding-left:140px; background:url(../images/bg_barpartner.png) no-repeat}
-#bar_brand {width:1112px; padding:0 60px 0 66px; background:url(../images/bg_barbrand.png) no-repeat}
+#bar_brand {width:1122px; padding:0 50px 0 66px; background:url(../images/bg_barbrand.png) no-repeat}
 #bar_partner li, #bar_brand li{ display:inline-block; overflow:hidden}
 #bar_partner li{ width:168px; height:42px; padding-top:5px}	
 #bar_partner li:hover{ background:url(../images/bg_barpartner-hover.png) no-repeat}
@@ -156,15 +158,15 @@ nav h3{ display:none}
 .bnav_04:hover, .bnav_04.navin{ background-position: 0 -376px}	
 .bnav_05{ background-position: 0 -188px}
 .bnav_05:hover, .bnav_05.navin{ background-position: 0 -423px}		
-#bar_brand p{ font-size:.938em; line-height:20px; color:#FFF}
-#bar_brand p span{ 
-    font-family: "Arial Black", Gadget, sans-serif; 
-	font-size:4em;
-	line-height:51px;
+#bar_brand p{ font-size:.938em; line-height:20px; color:#FFF; padding-top:15px}
+#bar_brand span{
+	font-family: "Arial Black", Gadget, sans-serif; 
+	font-size:4.1em;
+	color:#fff;
 	margin-left:15px; 
-	padding-right:10px}
+	padding:0 10px 0 0}
 	
-#pagemain_index, #pagemain{ display:block; width:1044px; margin:0 auto; padding:76px 0 210px 0}
+#pagemain_index, #pagemain{ display:block; width:1044px; margin:0 auto; padding:76px 0 130px 0}
 #box_complex{
 	display:block;
 	float:left;
@@ -335,19 +337,99 @@ nav h3{ display:none}
 	display:block;
 	position:absolute;
 	bottom:0;
-	width:1180px;
-	height:193px;
-	background:url(../images/bg_Sponsored.png) no-repeat}
+	width:900px;
+	height:63px;
+	background:url(../images/bg_Sponsored.png) no-repeat;
+	padding:50px 0 0 280px}
+#box_sponsored h3{
+	display:block;
+	float:left;
+	width:125px;
+	font-size:1.25em;
+	line-height:36px;
+	letter-spacing:1px;
+	color:#FFF;
+	text-align:right;
+	text-shadow:0 0 3px #333333;
+	margin:0 15px;
+	padding:0}
+#box_sponsored ul{ margin:0; padding:0}
+#box_sponsored li{
+	display:inline-block;
+	width:125px;
+	height:36px;
+	margin:0 15px}	
 	
 /* 2.5 版權列 */
 footer{ 
     display:block;
 	width:1180px;
-	height:109px;
+	height:120px;
 	background:url(../images/bg_copyright.jpg) no-repeat}
 footer p{
 	font-size:0.813em;
 	line-height:25px;
 	color:#fff;
 	text-align:center;
-	padding-top:25px}				
+	padding-top:36px}				
+
+/* 3. 品牌館
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+/* 3-1. 總覽 */
+.box_brandhot{
+	display:block;
+	width:725px;
+	height:307px;
+	margin-bottom:16px}
+.box_brandhot h3{ display:none}	
+.box_brandhot ul{ padding:90px 0 0 37px}
+.box_brandhot li{ display:inline-block; margin-right:42px}
+.box_brandhot img{ width:180px; height:120px}
+.box_brandhot h4{ display:block; width:180px; height:50px; overflow:hidden; font-size:.938em; line-height:25px}
+.box_brandhot a{ color:#0298c2; text-decoration:none}
+.box_brandhot a:hover{ color:#FFD400; text-decoration:underline}
+.new_videos{ background:url(../images/bg_brandvideo.png) no-repeat}
+.new_gallery{ background:url(../images/bg_brandgallery.png) no-repeat}
+
+#box_asidemap{
+	display:block;
+	width:298px;
+	height:274px;
+	background:url(../images/bg_asidemap.png) no-repeat;
+	margin-top:17px}
+#box_asidemap h3{ display:none}
+.box_zone{
+	display:block;
+	position:relative;
+	width:138px;
+	height:257px}
+.box_zone h4{
+	display:block;
+	position:absolute;
+	top:174px;
+	padding:3px 8px;
+	font-size:.938em;
+	line-height:22px;
+	color:#FFF}
+.box_zone p{
+	display:block;
+	position:absolute;
+	top:210px;
+	font-size:.813em;
+	line-height:20px;
+	color:#fff}
+.box_zone a{
+	display:block;
+	position:absolute;
+	top:65px;
+	left:53px;
+	width:31px;
+	height:31px;
+	background:url(../images/btn_glass.png) no-repeat;
+	text-indent:-9999px}
+.box_zone a:hover{ background:url(../images/btn_glass.png) 0 -31px no-repeat}	
+.z_taipei{ float:left; margin:10px 6px 0 8px}
+.z_taipei h4{ background:#f17724}
+.z_nangang{ float:right; margin-top:10px}
+.z_nangang h4{ background:#9fbc24}	
