@@ -5,16 +5,16 @@
 * @copyright  2015 xuedesign studio
 * @version    1.0 - 201511
 *
-*
 * 1.通用
 * 2.首頁
-	2-1. 上方區塊
-	2-2. 網站主選單
-	2-3. 中間區塊
-    2-4. 贊助廠商
-    2-5. 版權列
+*   2-1. 上方區塊
+*   2-2. 網站主選單
+*   2-3. 中間區塊
+*   2-4. 贊助廠商
+*   2-5. 版權列
 * 3.品牌館
-    3-1. 總覽  
+*   3-1. 總覽
+*   3-2. 總攬內文  
 *********************************************/
 
 /* 1. 通用 
@@ -108,7 +108,7 @@ nav h3{ display:none}
 	width:1180px;
 	min-height:500px;
 	margin:0 auto;
-	background: url(../images/bg_container.png) no-repeat}
+	background: url(../images/bg_container.png) repeat-y}
 .yeallow-arrow{
 	display:block;
 	position:absolute;
@@ -197,10 +197,11 @@ nav h3{ display:none}
 	
 .pagination {
 	position:absolute;
-	top:430px;
-	left:720px;
+	top:425px;
+	left:710px;
+	/*right:350px;*/
 	z-index:999;
-	width:100px;
+	width:150px;
 	margin:0 auto 0}
 .pagination li {
 	float:left;
@@ -386,7 +387,7 @@ footer p{
 .box_brandhot ul{ padding:90px 0 0 37px}
 .box_brandhot li{ display:inline-block; margin-right:42px}
 .box_brandhot img{ width:180px; height:120px}
-.box_brandhot h4{ display:block; width:180px; height:50px; overflow:hidden; font-size:.938em; line-height:25px}
+.box_brandhot h4{ display:block; width:180px; height:45px; overflow:hidden; font-size:.938em; line-height:22px}
 .box_brandhot a{ color:#0298c2; text-decoration:none}
 .box_brandhot a:hover{ color:#FFD400; text-decoration:underline}
 .new_videos{ background:url(../images/bg_brandvideo.png) no-repeat}
@@ -432,4 +433,76 @@ footer p{
 .z_taipei{ float:left; margin:10px 6px 0 8px}
 .z_taipei h4{ background:#f17724}
 .z_nangang{ float:right; margin-top:10px}
-.z_nangang h4{ background:#9fbc24}	
+.z_nangang h4{ background:#9fbc24}
+
+/* 3-2. 總攬內文 */
+#page_article, #other_article{ display:block; background:#FFF}
+#page_article{ width:640px; padding:50px 42px 30px 43px}
+#page_article h4{
+	font-size:1.5em;
+	line-height:28px;
+	color:#024587;
+	padding-bottom:8px}
+.callout_left, .callout_right{ font-size:.938em; line-height:22px; color:#727171; margin-bottom:40px}	
+.callout_left{ display:block; float:left}
+.callout_right{ display:block; float:right}
+.callout_right>div{ display:inline-block; text-align:right}
+.callout_right span{ font-weight:bold; color:#900}		
+#page_article h5{ font-size:1.125em; line-height:30px; color:#024587}
+#page_article p{ font-size:.938em; line-height:24px; padding-bottom:30px}
+.box_img{ display:block; border:1px solid #3D414A; margin-bottom:20px}
+.box_img img{ width:638px; height:auto}
+#page_article a.btn_back{
+	display:block;
+	width:70px;
+	margin:0 auto;
+	background:#f17724;
+	padding:5px 20px;
+	font-size:1em;
+	line-height:25px;
+	color:#FFF;
+	text-align:center}
+#page_article a.btn_back:hover{ text-decoration:none; background:#6C46AA}		
+.photocaption{ 
+   display:block; 
+   background:#3D414A; 
+   font-size:.813em; 
+   line-height:18px;
+   color:#FFF;
+   padding:5px 5px}
+#other_article{ width:725px; margin-bottom:30px} 
+#other_article h3, #newsest h3{
+	display:block;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#024587), to(#000141));
+	background: -webkit-linear-gradient(left, #024587, #000141);
+	background: -moz-linear-gradient(left, #024587, #000141);
+	background: -o-linear-gradient(left, #024587, #000141);
+	background: -ms-linear-gradient(left, #024587, #000141);
+	background: linear-gradient(left, #024587, #000141);
+	background-color: #024587;
+	font-size:1.25em;
+	color:#FFF;
+	text-align:center;
+	letter-spacing:3px}
+#other_article h3{ width:725px; height:50px; line-height:50px}	
+#other_article ul{
+	display:block;
+	width:640px; 
+	padding:30px 42px 30px 43px}
+#other_article li{ font-size:.813em; line-height:22px; padding-bottom:8px}
+#aside_banner{ display:block; width:298px; margin-top:17px}
+#newsest{ 
+    display:block; 
+	width:298px; 
+	margin-top:17px; 
+	background:#FFF}
+#newsest h3{ width:298px; height:40px; line-height:40px}
+#newsest ul{ padding:15px 19px}
+#newsest li{ 
+    display:block; 
+	width:260px;
+	padding-bottom:20px}
+#newsest a>h4{ font-size:1em; line-height:22px; padding-bottom:10px}
+#newsest a>p{ font-size:.813em; line-height:20px; color:#2b2b2b}
+#newsest a:hover{ text-decoration:none}
+#newsest img{ width:260px; height:auto}	
