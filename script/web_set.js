@@ -23,4 +23,21 @@ $(function() {
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));	  
+}(document, 'script', 'facebook-jssdk'));
+
+//Lightbox效果
+$(document).ready(function() {
+  $(".fancybox-thumb").fancybox({
+	  prevEffect	: 'elastic',
+	  nextEffect	: 'elastic',
+	  helpers	: {
+		  title	: {
+			  type: 'inside'
+		  },
+		  thumbs	: {
+			  width	: 50,
+			  height	: 50
+		  }
+	  }
+  });
+});	 	  
