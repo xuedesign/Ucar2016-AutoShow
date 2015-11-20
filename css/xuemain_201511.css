@@ -15,7 +15,8 @@
 * 3.品牌館
 *   3-1. 總覽
 *   3-2. 總攬內文
-*   3-3. 圖片集  
+*   3-3. 圖片集
+*   3-4. 影音區  
 *********************************************/
 
 /* 1. 通用 
@@ -123,10 +124,13 @@ nav h3{ display:none}
 	position:absolute;
 	top:0;
 	left:-29px;
-	background:url(../images/bg_barpartner.png) no-repeat;
 	height:85px}
 #bar_partner{width:1098px; padding-left:140px; background:url(../images/bg_barpartner.png) no-repeat}
-#bar_brand {width:1122px; padding:0 50px 0 66px; background:url(../images/bg_barbrand.png) no-repeat}
+#bar_brand{width:1122px; padding:0 50px 0 66px}
+.zone-A{background:url(../images/bg_barbrand-A.png) no-repeat}
+.zone-B{background:url(../images/bg_barbrand-B.png) no-repeat}
+.zone-C{background:url(../images/bg_barbrand-C.png) no-repeat}
+.zone-D{background:url(../images/bg_barbrand-D.png) no-repeat}
 #bar_partner li, #bar_brand li{ display:inline-block; overflow:hidden}
 #bar_partner li{ width:168px; height:42px; padding-top:5px}	
 #bar_partner li:hover{ background:url(../images/bg_barpartner-hover.png) no-repeat}
@@ -339,28 +343,28 @@ nav h3{ display:none}
 	display:block;
 	position:absolute;
 	bottom:0;
-	width:900px;
+	width:920px;
 	height:63px;
 	background:url(../images/bg_Sponsored.png) no-repeat;
-	padding:50px 0 0 280px}
+	padding:50px 0 0 260px}
 #box_sponsored h3{
 	display:block;
 	float:left;
-	width:125px;
-	font-size:1.25em;
-	line-height:36px;
+	width:110px;
+	font-size:1.125em;
+	line-height:26px;
 	letter-spacing:1px;
-	color:#FFF;
+	color:#444444;
 	text-align:right;
-	text-shadow:0 0 3px #333333;
+	/*text-shadow:0 0 3px #333333;*/
 	margin:0 15px;
 	padding:0}
 #box_sponsored ul{ margin:0; padding:0}
 #box_sponsored li{
 	display:inline-block;
-	width:125px;
-	height:36px;
-	margin:0 15px}	
+	width:90px;
+	height:26px;
+	margin:0 8px}	
 	
 /* 2.5 版權列 */
 footer{ 
@@ -552,4 +556,23 @@ footer p{
 	width:178px;
 	height:178px;
 	margin:0 15px 30px;
-	border:1px solid #024587}			
+	border:1px solid #024587}
+	
+/* 3-4. 影音區 */	
+#box_video{ display:block; width:725px; margin-bottom:30px}
+#nowplay h3{
+	display:block;
+	width:580px;
+	min-height:55px;
+	padding:20px 30px 0 115px;
+	background: url(../images/bg_video-title.png) no-repeat #000028;
+	font-size:1.25em;
+	line-height:25px;
+	color:#fff}
+.video_info{
+	display:block;
+	width:665px;
+	background:#000028;
+	padding:15px 30px}
+.video_info>time{}
+						
