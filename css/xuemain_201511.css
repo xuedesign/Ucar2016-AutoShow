@@ -692,4 +692,69 @@ footer p{
 #news_list img{ display:block; float:left; width:221px; height:150px}
 #news_list .news_info{ display:block; float:right; width:366px; height:140px; overflow:hidden}
 .news_info p{ font-size:.938em; line-height:25px}
-.viewinfo{ color:#999; padding-bottom:15px}				
+.viewinfo{ color:#999; padding-bottom:15px}
+
+#banner_hotsale, #list_sale{ display:block; width:1008px; margin:0 auto 30px auto}
+#list_sale li{
+	display:block;
+	position:relative;
+	float:left;
+	width:392px;
+	height:412px;
+	background:url(../images/bg_salebox.png) no-repeat;
+	margin:0 25px 45px;
+	padding:17px 18px 21px 40px}
+#list_sale h4{
+	display:block;
+	width:377px;
+	height:25px;
+	font-size:1.125em;
+	line-height:25px;
+	overflow:hidden;
+	padding-left:15px}
+#list_sale .product_info{
+	display:block;
+	width:377px;
+	height:44px;
+	overflow:hidden;
+	padding:10px 0 0 15px;
+	margin-bottom:307px;
+	font-size:.813em;
+	line-height:22px}
+#list_sale img{
+	display:block;
+	position:absolute;
+	top:123px;
+	left:0;
+	width:450px;
+	height:255px}
+#list_sale .price{
+	display:block;
+	float:left;
+	width:113px;
+	height:25px;
+	overflow:hidden;
+	padding-left:25px;
+	font-size:1.5em;
+	line-height:25px;
+	font-weight:bold;
+	color:#024587}
+#list_sale .tool_buy{
+	display:block;
+	float:right;
+	width:254px;
+	text-align:right}
+#list_sale .tool_buy a, #list_sale .tool_buy div{ float:right}	
+#list_sale .tool_buy a{
+	display:block;
+	width:60px;
+	height:25px;
+	margin-left:15px;
+	background:#F17724;
+	font-size:1.125em;
+	line-height:25px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	letter-spacing:2px}
+#list_sale .tool_buy a:hover{ text-decoration:none; background:#6D47AB}					
