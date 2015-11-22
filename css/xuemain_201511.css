@@ -18,7 +18,8 @@
 *   3-3. 圖片集
 *   3-4. 影音區
 *   3-5. 徹底研究
-* 4.車展報導   
+* 4.車展報導
+* 5.車展必看   
 *********************************************/
 
 /* 1. 通用 
@@ -757,4 +758,93 @@ footer p{
 	color:#fff;
 	text-align:center;
 	letter-spacing:2px}
-#list_sale .tool_buy a:hover{ text-decoration:none; background:#6D47AB}					
+#list_sale .tool_buy a:hover{ text-decoration:none; background:#6D47AB}
+
+/* 5. 車展必看
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+#box_topic{
+	display:block;
+	width:1040px;
+	height:500px;
+	margin:25px auto}
+#topic_info{
+	display:block;
+	position:relative;
+	width:470px;
+	height:500px;
+	background:url(../images/bg_topicinfo.png) no-repeat;
+	margin-left:570px}
+#topic_info h3{
+	display:block;
+	position:absolute;
+	top:-40px;
+	right:-40px;
+	width:133px;
+	height:133px;
+	background:url(../images/bg_topic-title.png) no-repeat;
+	text-indent:-9999px}
+#topic_link{
+	display:block;
+	position:absolute;
+	bottom:0; 
+	right:0;
+	width:507px;
+	height:78px;
+	background:url(../images/bg_topic-link.png) no-repeat;
+	text-align:center;
+	color:#fff}
+#topic_link li{
+	display:inline;
+	font-size:.938em;
+	line-height:55px}
+#topic_link a{ color:#fff; padding:0 10px}
+#topic_link a:hover{ color:#FFD400; text-decoration:underline}
+#abgne_tab {
+	display:block;
+	position:relative;
+	width:410px;
+	height:357px;
+	padding:50px 30px 15px}
+#tabs li a{
+	display:block;
+	position:absolute;
+	width:60px;
+	height:60px;
+	background:url(../images/btn_showmap.png) no-repeat;
+	text-indent:-9999px}
+#tabs li a:hover, 
+#tabs li.pot_01.active, 
+#tabs li.pot_01.active a:hover{ background:url(../images/btn_showmap.png) 0 -60px no-repeat}
+#tabs li.pot_01{ position:absolute; top:196px; left:-445px}
+#tabs li.pot_02{ position:absolute; top:183px; left:-154px}
+.tab_container {display:block; width:410px; height:357px}
+.tab_container .tab_content h4{
+	display:block;
+	width:390px;
+	height:25px;
+	overflow:hidden;
+	font-size:1.8em;
+	line-height:25px;
+	color:#0598C4;
+	margin-bottom:15px}
+.tab_container .tab_content p{
+	display:block;
+	width:390px;
+	height:150px;
+	overflow:hidden;
+	font-size:.938em;
+	line-height:22px;
+	color:#fff}
+.tab_container .tab_content .boss_talk{
+	display:block;
+	position:absolute;
+	bottom:15px;
+	width:275px;
+	height:105px;
+	overflow:hidden;
+	background:url(../images/bg_topic-boss.jpg) no-repeat;
+	padding:22px 15px 10px 120px;
+	font-size:.813em;
+	line-height:22px;
+	color:#fff}													
