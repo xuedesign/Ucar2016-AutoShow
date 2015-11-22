@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-tw"><!-- InstanceBegin template="/Templates/TempSite.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
 <meta http-equiv="cache-control" content="must-revalidate" />
@@ -8,37 +8,37 @@
 <meta name="Author" content="MediaBrilliance System" />
 <link rel="shortcut icon"  href="https://www.u-car.com.tw/favicon.ico"/>
 <link rel="icon" href="https://www.u-car.com.tw/favicon.ico"/>
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>車展報導│U-CAR 2016台北新車大展</title>
-<!-- InstanceEndEditable -->
-<link rel="stylesheet" href="css/reset.css"/>
-<link rel="stylesheet" href="css/xuemain_201511.css"/>
-<link rel="stylesheet" href="css/jquery.fancybox.css">
-<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css">
-<link rel="stylesheet" href="css/animate.css"/>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/reset.css"/>
+<link rel="stylesheet" href="../css/xuemain_201511.css"/>
+<link rel="stylesheet" href="../css/jquery.fancybox.css">
+<link rel="stylesheet" href="../css/jquery.fancybox-thumbs.css">
+<link rel="stylesheet" href="../css/animate.css"/>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!--[if IE 7]>
 	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
  <div id="wrap">
     <header>
-        <h1><a href="index.html" title="返回首頁">Welcom to 2016 Taipei Auto Show</a></h1>
+        <h1><a href="../index.html" title="返回首頁">Welcom to 2016 Taipei Auto Show</a></h1>
         <h2 class="hidden">UCAR 2016台北新車大展<br>展期：2015/12/26~2016/01/03</h2>
         <nav>
             <h3>網站主選單</h3>
-            <!-- InstanceBeginEditable name="MainNav" -->
+            <!-- TemplateBeginEditable name="MainNav" -->
             <ul class="navigation">
-              <li><a href="index.html" title="首頁" class="nav_01">首頁</a></li>
+              <li><a href="../index.html" title="首頁" class="nav_01">首頁</a></li>
               <li><a href="#" title="品牌館" class="nav_02">品牌館</a>
                 <ul>
-                  <li><a href="brand_index.html" title="TOYOTA">TOYOTA</a></li>
+                  <li><a href="../brand_index.html" title="TOYOTA">TOYOTA</a></li>
                   <li><a href="#" title="LEXUS">LEXUS</a></li>
                   <li><a href="#" title="MITSUBISHI">MITSUBISHI</a></li>
                   <li><a href="#" title="SUBARU">SUBARU</a></li>
@@ -46,23 +46,23 @@
               </li>
               <li><a href="#" title="車展必看" class="nav_03">車展必看</a>
                 <ul>
-                  <li><a href="topic.html" title="TOYOTA">TOYOTA</a></li>
+                  <li><a href="../topic.html" title="TOYOTA">TOYOTA</a></li>
                   <li><a href="#" title="LEXUS">LEXUS</a></li>
                   <li><a href="#" title="MITSUBISHI">MITSUBISHI</a></li>
                   <li><a href="#" title="SUBARU">SUBARU</a></li>
                 </ul>
               </li>
-              <li><a href="online_shop.html" title="售後商品" class="nav_04">售後商品</a></li>
-              <li><a href="news_list.html" title="車展報導" class="nav_05 navin">車展報導</a></li><!--當處於該單元時，class請加上"navin"-->
+              <li><a href="../online_shop.html" title="售後商品" class="nav_04">售後商品</a></li>
+              <li><a href="../news_list.html" title="車展報導" class="nav_05 navin">車展報導</a></li><!--當處於該單元時，class請加上"navin"-->
             </ul>
-            <!-- InstanceEndEditable -->
+            <!-- TemplateEndEditable -->
          </nav>
     </header>
     
     <div id="container">
       <div id="pagemain-2">
         
-        <!-- InstanceBeginEditable name="PageMain" -->
+        <!-- TemplateBeginEditable name="PageMain" -->
         <div id="box_complex">
           <section id="page_article">
             <h4>品牌大計，Subaru Impreza 4門概念車洛杉磯登場</h4>
@@ -76,18 +76,18 @@
             <br class="clean">
             <article>
               <p>繼東京車展中的Impreza 5-Door Concept之後，Subaru又在正舉行中的洛杉磯車展上推出4門房車版的Impreza Sedan Concept，兩輛概念車同樣做為預覽新一代Impreza的造型藍本，目前無論5門掀背或4門房車版都已經展開路試，預計在2016年後半段就會量產上市，成為Subaru Prominence 2020大計中的戰略車款，協助推升銷售表現和品牌價值。</p>
-              <div class="box_img"> <img src="images/pic_sample-09.jpg" alt="*"> <span class="photocaption">本屆洛杉磯車展中的Impreza Sedan Concept，是下一代4門版Impreza的造型藍本。</span> </div>
+              <div class="box_img"> <img src="../images/pic_sample-09.jpg" alt="*"> <span class="photocaption">本屆洛杉磯車展中的Impreza Sedan Concept，是下一代4門版Impreza的造型藍本。</span> </div>
               <h5>架構在全新標準化底盤平臺之上</h5>
               <p>Subaru在2014年5月公佈的Prominence 2020計畫，除了銷售量與品牌價值的提升之外，和消費者切身相關的環節，是Subaru會推出全新的標準化底盤平臺，概念近似於Volkswagen的MQB或是Volvo的SPA、CMA架構，就是構建出能同時對應多種車型使用的底盤平臺，目前所知是小從Impreza、大至Outback都將受惠於這具剛性更強、重量更輕的平臺，而相繼在東京車展及洛杉磯車展登場的兩輛Impreza概念車，就是架構在此一全新底盤之上，並做為Prominence 2020計畫中的重要戰略車款。</p>
-              <div class="box_img"> <img src="images/pic_sample-10.jpg" alt="*"> <span class="photocaption">下一代Impreza的大致樣貌，其實已在東京車展中的Impreza 5-Door概念車上呈現</span> </div>
-              <div class="box_img"> <img src="images/pic_sample-11.jpg" alt="*"> <span class="photocaption">Impreza Sedan Concept身披Subaru全新的Dynamic & Solid造型設計語彙，同時是新一代Impreza及新世代Subaru車款的造型靈感來源。</span> </div>
+              <div class="box_img"> <img src="../images/pic_sample-10.jpg" alt="*"> <span class="photocaption">下一代Impreza的大致樣貌，其實已在東京車展中的Impreza 5-Door概念車上呈現</span> </div>
+              <div class="box_img"> <img src="../images/pic_sample-11.jpg" alt="*"> <span class="photocaption">Impreza Sedan Concept身披Subaru全新的Dynamic & Solid造型設計語彙，同時是新一代Impreza及新世代Subaru車款的造型靈感來源。</span> </div>
               <p>但現階段，Subaru想要透過Impreza 5-Door Concept及Impreza Sedan Concept傳達給消費者的，是全新的品牌設計語彙：Dynamic & Solid。Subaru表示透過 Dynamic & Solid筆觸設計出的Impreza概念車，除了是下一代Impreza的造型藍本之外，也蘊藏了其他新世代Subaru車款的神韻。</p>
             </article>
             <a href="#" onClick="history.back()" title="返回上頁" class="btn_back">返回上頁</a> </section>
           <div id="other_article">
             <h3>相關文章</h3>
             <ul>
-              <li><a href="brand_article.html" title="主力300萬內價格更具競爭力，Audi Q7大改款發表上市">[ 新聞 ] 主力300萬內價格更具競爭力，Audi Q7大改款發表上市</a></li>
+              <li><a href="../brand_article.html" title="主力300萬內價格更具競爭力，Audi Q7大改款發表上市">[ 新聞 ] 主力300萬內價格更具競爭力，Audi Q7大改款發表上市</a></li>
               <li><a href="#" title="汽油Skyactiv渦輪首部曲，Mazda全新CX-9洛杉磯展先曝光">[ MOOK ] 汽油Skyactiv渦輪首部曲，Mazda全新CX-9洛杉磯展先曝光</a></li>
               <li><a href="#" title="全新Audi R8 LMS戰駒首度現身亞洲，為FIA GT World Cup點燃開幕戰火">[ MOOK ] 全新Audi R8 LMS戰駒首度現身亞洲，為FIA GT World Cup點燃開幕戰火</a></li>
               <li><a href="#" title="明年3月美國開賣，Honda全新Civic Coupé亮相">[ 新聞 ] 明年3月美國開賣，Honda全新Civic Coupé亮相</a></li>
@@ -100,52 +100,52 @@
           <!--右側活動連結-->
           <div id="box_hotevent">
             <ul id="portfolio">
-              <li><a href="news_main.html" title="Lexus RX 200t旗艦版試駕"> <img src="images/pic_sample-04.jpg" alt="Lexus RX 200t">
+              <li><a href="../news_main.html" title="Lexus RX 200t旗艦版試駕"> <img src="../images/pic_sample-04.jpg" alt="Lexus RX 200t">
                 <!-- 圖片尺寸：298*300px-->
                 <h3>中年大叔的華麗搖滾，Lexus RX 200t旗艦版試駕</h3>
                 <p>2011年的北美圓石灘嘉年華會中，Lexus發表第4代GS，同步也揭示當在家族設計語彙的「Spindle Grille紡錘型水箱護罩」，這也是現行Lexus家族成員一大辨識特徵；隨後在陸續進行的小改款車型上，可以清楚發現紡錘型水箱護罩的進化版本，以更加霸氣、甚至從側面看過去，清楚能發現其前掠態勢的設計，讓Lexus車款有著更動感的氣勢。</p>
               </a></li>
-              <li><a href="#" title="Lexus RX美國試駕"> <img src="images/pic_sample-05.jpg" alt="Lexus RX">
+              <li><a href="#" title="Lexus RX美國試駕"> <img src="../images/pic_sample-05.jpg" alt="Lexus RX">
                 <!-- 圖片尺寸：298*300px-->
                 <h3>匠心之作─Lexus RX美國試駕</h3>
                 <p>雖然外觀設計如此前衛大膽，不過你不用擔心打開新RX車門，會出現源自未來世界的戰鬥機艙，回歸Lexus所秉持的日式精緻作風，讓進入車內的人，第一眼印象與SUV的定位無法聯想，而雙手所可觸碰、以及眼睛所能看到的事物，還能感受到師匠技藝下所營造的暖心溫度。</p>
               </a></li>
-              <li><a href="#" title="沒有渦輪、經濟取向也不賴─Lexus ES 200試駕"> <img src="images/pic_sample-06.jpg" alt="Lexus ES 200">
+              <li><a href="#" title="沒有渦輪、經濟取向也不賴─Lexus ES 200試駕"> <img src="../images/pic_sample-06.jpg" alt="Lexus ES 200">
                 <!-- 圖片尺寸：298*300px-->
                 <h3>沒有渦輪、經濟取向也不賴─Lexus ES 200試駕</h3>
                 <p>Lexus麾下的ES車系，乃是採用前置前驅的車格設定，尺碼雖然與家族另一位成員GS車系相近，同為豪華中大型級距戰力，但相比於GS採用前置後驅的配置，兩者間的產品定位不同不言而喻，價格當然也大相逕庭；簡單來說，ES主打豪華中大型之車格，但更具經濟取向之優勢，而這也是前面所提到的，消費族群需求不同，因此Lexus並未藉由ES車系的小改款，同步導入200t車型，而是以ES 200來取代既有的ES 250。</p>
               </a></li>
             </ul>
           </div>
-          <div id="aside_banner"><img src="images/pic_sample-12.jpg" alt="*"></div>
+          <div id="aside_banner"><img src="../images/pic_sample-12.jpg" alt="*"></div>
           <!--側邊廣告banner,限寬298px-->
           <div id="newsest">
             <h3>全站最新</h3>
             <ul>
-              <li><a href="news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
+              <li><a href="../news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
                 <h4>前所未見的跨界休旅-Mini Countryman</h4>
-                <img src="images/pic_sample-13.jpg" alt="Mini Countryman">
+                <img src="../images/pic_sample-13.jpg" alt="Mini Countryman">
                 <p>引領車壇潮流，Mini不僅很行，也很型。定義掀背小車的該有的靈活身形、造就車壇難以取代的精品等級，Mini於車壇中的個性代表無人能敵。</p>
               </a></li>
-              <li><a href="news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
+              <li><a href="../news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
                 <h4>前所未見的跨界休旅-Mini Countryman</h4>
-                <img src="images/pic_sample-13.jpg" alt="Mini Countryman">
+                <img src="../images/pic_sample-13.jpg" alt="Mini Countryman">
                 <p>引領車壇潮流，Mini不僅很行，也很型。定義掀背小車的該有的靈活身形、造就車壇難以取代的精品等級，Mini於車壇中的個性代表無人能敵。</p>
               </a></li>
-              <li><a href="news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
+              <li><a href="../news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
                 <h4>前所未見的跨界休旅-Mini Countryman</h4>
-                <img src="images/pic_sample-13.jpg" alt="Mini Countryman">
+                <img src="../images/pic_sample-13.jpg" alt="Mini Countryman">
                 <p>引領車壇潮流，Mini不僅很行，也很型。定義掀背小車的該有的靈活身形、造就車壇難以取代的精品等級，Mini於車壇中的個性代表無人能敵。</p>
               </a></li>
-              <li><a href="news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
+              <li><a href="../news_main.html" title="前所未見的跨界休旅，Mini Countryman就要開啟無限多種生活可能性。">
                 <h4>前所未見的跨界休旅-Mini Countryman</h4>
-                <img src="images/pic_sample-13.jpg" alt="Mini Countryman">
+                <img src="../images/pic_sample-13.jpg" alt="Mini Countryman">
                 <p>引領車壇潮流，Mini不僅很行，也很型。定義掀背小車的該有的靈活身形、造就車壇難以取代的精品等級，Mini於車壇中的個性代表無人能敵。</p>
               </a></li>
             </ul>
           </div>
         </div><!--//end #box_aside-->
-      <!-- InstanceEndEditable -->
+      <!-- TemplateEndEditable -->
       
       <br class="clean">
       </div><!--//end #pagemain-2-->
@@ -155,11 +155,11 @@
        <div id="box_sponsored">
           <h3>贊助廠商：</h3>
           <ul>
-          	 <li><a href="brand_index.html" title="前往TOYOTA品牌館"><img src="images/LOGO-04-S.png" alt="*"></a></li>
-          	 <li><a href="#" title="前往LEXUS品牌館"><img src="images/LOGO-02-S.png" alt="*"></a></li>
-             <li><a href="#" title="前往MITSUBISHI品牌館"><img src="images/LOGO-05-S.png" alt="*"></a></li>
-             <li><a href="#" title="前往SUBARU品牌館"><img src="images/LOGO-06-S.png" alt="*"></a></li>
-             <li><a href="#" title="3M"><img src="images/LOGO-07-S.png" alt="*"></a></li>
+          	 <li><a href="../brand_index.html" title="前往TOYOTA品牌館"><img src="../images/LOGO-04-S.png" alt="*"></a></li>
+          	 <li><a href="#" title="前往LEXUS品牌館"><img src="../images/LOGO-02-S.png" alt="*"></a></li>
+             <li><a href="#" title="前往MITSUBISHI品牌館"><img src="../images/LOGO-05-S.png" alt="*"></a></li>
+             <li><a href="#" title="前往SUBARU品牌館"><img src="../images/LOGO-06-S.png" alt="*"></a></li>
+             <li><a href="#" title="3M"><img src="../images/LOGO-07-S.png" alt="*"></a></li>
           </ul>
           <br class="clean"> 
        </div>
@@ -173,21 +173,21 @@
  
  
 <script src="http://code.jquery.com/jquery.min.js"></script>
-<script src="script/slides.min.jquery.js"></script>
+<script src="../script/slides.min.jquery.js"></script>
 <script>
 $(function(){$("#slides").slides({preload:!0,preloadImage:"images/loading.gif",play:5e3,pause:2500,hoverPause:!0,animationStart:function(){$(".caption").animate({bottom:-35},100)},animationComplete:function(o){$(".caption").animate({bottom:0},200),window.console&&console.log&&console.log(o)}})});
 </script>
-<script src="script/jquery.innerfade.js"></script>
+<script src="../script/jquery.innerfade.js"></script>
 <script>
 $(document).ready(function(){$("ul#portfolio").innerfade({speed:1e3,timeout:5e3,type:"sequence",containerheight:"220px"})});
 </script>
-<script src="script/jquery.fancybox.pack.js"></script>
-<script src="script/jquery.fancybox-thumbs.js"></script>
+<script src="../script/jquery.fancybox.pack.js"></script>
+<script src="../script/jquery.fancybox-thumbs.js"></script>
 <script>
 $(document).ready(function(){$(".fancybox").fancybox(),$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}}),$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}}),$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}}),$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}}),$(".fancybox-buttons").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",closeBtn:!1,helpers:{title:{type:"inside"},buttons:{}},afterLoad:function(){this.title="Image "+(this.index+1)+" of "+this.group.length+(this.title?" - "+this.title:"")}}),$(".fancybox-thumbs").fancybox({prevEffect:"none",nextEffect:"none",closeBtn:!1,arrows:!1,nextClick:!0,helpers:{thumbs:{width:50,height:50}}}),$(".fancybox-media").attr("rel","media-gallery").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",arrows:!1,helpers:{media:{},buttons:{}}}),$("#fancybox-manual-a").click(function(){$.fancybox.open("1_b.jpg")}),$("#fancybox-manual-b").click(function(){$.fancybox.open({href:"iframe.html",type:"iframe",padding:5})}),$("#fancybox-manual-c").click(function(){$.fancybox.open([{href:"1_b.jpg",title:"My title"},{href:"2_b.jpg",title:"2nd title"},{href:"3_b.jpg"}],{helpers:{thumbs:{width:75,height:50}}})})});
 </script>
-<script src="script/wow.min.js"></script>
+<script src="../script/wow.min.js"></script>
 <script>wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();</script>
-<script src="script/web_set.js"></script>
+<script src="../script/web_set.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>

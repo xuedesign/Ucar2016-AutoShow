@@ -647,4 +647,49 @@ footer p{
 /* 4. 車展報導
 -----------------------------------------------------------------------------------------------
 ===============================================================================================*/
-#pagemain-2{ display:block; width:1044px; margin:0 auto; padding:30px 0 130px 0}						
+#pagemain-2{ display:block; width:1044px; margin:0 auto; padding:30px 0 130px 0}
+#box_showmap{
+	display:block;
+	width:1044px;
+	min-height:420px;
+	background:#000028;
+	margin-bottom:30px}
+.mapinfo, .maptaipei, .mapnangang{ display: block; float:left}	
+.mapinfo{width:310px; margin:24px 64px 0 49px}
+.mapinfo h4{ font-size:1.5em; line-height:35px; color:#60d1ff; text-align:center}
+.mapinfo p{ font-size:1em; line-height:25px; color:#fff; padding:15px 5px 0}
+.maptaipei{ position:relative; width:270px; margin:24px 0 0 22px}
+.mapnangang{ position:relative;  width:270px; margin:24px 0 0 50px}
+.maptaipei h4, .mapnangang h4{ 
+   width:60px; 
+   font-size:1em; 
+   line-height:22px; 
+   color:#fff; 
+   letter-spacing:2px; 
+   padding:3px 15px}
+.maptaipei h4{ background:#f17724}
+.mapnangang h4{background:#9fbc24}
+.maptaipei p, .mapnangang p{ font-size:.813em; line-height:28px; color:#fff}
+.maptaipei a, .mapnangang a{
+	display:block;
+	position:absolute;
+	top:130px;
+	left:105px;
+	width:60px;
+	height:60px;
+	background:url(../images/btn_showmap.png) no-repeat;
+	text-indent:-9999px}	
+.maptaipei a:hover, .mapnangang a:hover{background:url(../images/btn_showmap.png) 0 -60px no-repeat}
+
+#news_list{
+	display:block;
+	background:url(../images/bg_newslist.png) no-repeat;
+	width:617px; 
+	padding:87px 65px 30px 43px}
+#news_list li{ display:block; margin-bottom:20px}
+#news_list a>h4{ font-size:1.25em; line-height:25px; color:#024587; margin-bottom:15px}
+#news_list a:hover>h4{ color:#f50}
+#news_list img{ display:block; float:left; width:221px; height:150px}
+#news_list .news_info{ display:block; float:right; width:366px; height:140px; overflow:hidden}
+.news_info p{ font-size:.938em; line-height:25px}
+.viewinfo{ color:#999; padding-bottom:15px}				
