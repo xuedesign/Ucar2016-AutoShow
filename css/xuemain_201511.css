@@ -814,15 +814,15 @@ footer p{
 	background:url(../images/btn_showmap.png) no-repeat;
 	text-indent:-9999px}
 #tabs li a:hover, 
-#tabs li.pot_01.active, 
-#tabs li.pot_01.active a:hover{ background:url(../images/btn_showmap.png) 0 -60px no-repeat}
+#tabs li.active, 
+#tabs li.active a:hover{ background:url(../images/btn_showmap.png) 0 -60px no-repeat}
 #tabs li.pot_01{ position:absolute; top:196px; left:-445px}
 #tabs li.pot_02{ position:absolute; top:183px; left:-154px}
 .tab_container {display:block; width:410px; height:357px}
 .tab_container .tab_content h4{
 	display:block;
 	width:390px;
-	height:25px;
+	height:35px;
 	overflow:hidden;
 	font-size:1.8em;
 	line-height:25px;
