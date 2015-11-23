@@ -806,18 +806,35 @@ footer p{
 	width:410px;
 	height:357px;
 	padding:50px 30px 15px}
-#tabs li a{
+/*.tabs li a{
 	display:block;
-	position:absolute;
+	width:60px;
+	height:60px;
+	background:url(../images/btn_showmap.png) no-repeat;
+	text-indent:-9999px}*/
+/*.tabs li a:hover, 
+.tabs li.active, 
+.tabs li.active a:hover{ display:block; background:url(../images/btn_showmap.png) 0 -60px no-repeat}*/
+#tabs li:nth-child(1){
+	display:block;
+	position:absolute; 
+	top:196px; 
+	left:-445px;
 	width:60px;
 	height:60px;
 	background:url(../images/btn_showmap.png) no-repeat;
 	text-indent:-9999px}
-#tabs li a:hover, 
-#tabs li.active, 
-#tabs li.active a:hover{ background:url(../images/btn_showmap.png) 0 -60px no-repeat}
-#tabs li .pot_01{ position:absolute; top:196px; left:-445px}
-#tabs li .pot_02{ position:absolute; top:183px; left:-154px}
+#tabs li:nth-child(1):hover, #tabs li:nth-child(1).active, #tabs li.active a:hover{background:url(../images/btn_showmap.png) 0 -60px no-repeat}	
+#tabs li:nth-child(2){
+	display:block;
+	width:60px;
+	height:60px;
+	background:url(../images/btn_showmap.png) no-repeat;
+	text-indent:-9999px;
+	position:absolute; 
+	top:183px; 
+	left:-154px}
+#tabs li:nth-child(2):hover, #tabs li:nth-child(2).active, #tabs li.active a:hover{background:url(../images/btn_showmap.png) 0 -60px no-repeat}		
 .tab_container {display:block; width:410px; height:357px}
 .tab_container .tab_content h4{
 	display:block;

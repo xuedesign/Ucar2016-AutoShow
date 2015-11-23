@@ -61,8 +61,8 @@
                
              <div id="abgne_tab">
                 <ul id="tabs">
-                    <li class="pot_01"><a href="#tab1">觀看評論</a></li>
-                    <li class="pot_02"><a href="#tab2">觀看評論</a></li>
+                    <li><a href="#tab1">觀看評論</a></li>
+                    <li><a href="#tab2">觀看評論</a></li>
                 </ul>
           
                 <div class="tab_container">
@@ -134,7 +134,30 @@ $(document).ready(function(){$("ul#portfolio").innerfade({speed:1e3,timeout:5e3,
 $(document).ready(function(){$(".fancybox").fancybox(),$(".fancybox-effects-a").fancybox({helpers:{title:{type:"outside"},overlay:{speedOut:0}}}),$(".fancybox-effects-b").fancybox({openEffect:"none",closeEffect:"none",helpers:{title:{type:"over"}}}),$(".fancybox-effects-c").fancybox({wrapCSS:"fancybox-custom",closeClick:!0,openEffect:"none",helpers:{title:{type:"inside"},overlay:{css:{background:"rgba(238,238,238,0.85)"}}}}),$(".fancybox-effects-d").fancybox({padding:0,openEffect:"elastic",openSpeed:150,closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}}),$(".fancybox-buttons").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",closeBtn:!1,helpers:{title:{type:"inside"},buttons:{}},afterLoad:function(){this.title="Image "+(this.index+1)+" of "+this.group.length+(this.title?" - "+this.title:"")}}),$(".fancybox-thumbs").fancybox({prevEffect:"none",nextEffect:"none",closeBtn:!1,arrows:!1,nextClick:!0,helpers:{thumbs:{width:50,height:50}}}),$(".fancybox-media").attr("rel","media-gallery").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",arrows:!1,helpers:{media:{},buttons:{}}}),$("#fancybox-manual-a").click(function(){$.fancybox.open("1_b.jpg")}),$("#fancybox-manual-b").click(function(){$.fancybox.open({href:"iframe.html",type:"iframe",padding:5})}),$("#fancybox-manual-c").click(function(){$.fancybox.open([{href:"1_b.jpg",title:"My title"},{href:"2_b.jpg",title:"2nd title"},{href:"3_b.jpg"}],{helpers:{thumbs:{width:75,height:50}}})})});
 </script>
 <script>
-$(function(){var i=0,a=$("#tabs li").eq(i).addClass("active");$(a.find("a").attr("href")).siblings().hide(),$("#tabs li").click(function(){var i=$(this),a=i.find("a").attr("href");return i.addClass("active").siblings(".active").removeClass("active"),$(a).stop(!1,!0).fadeIn().siblings().hide(),!1}).find("a").focus(function(){this.blur()})});
+$(function(){
+		// 預設顯示第一個 Tab
+		var _showTab = 0;
+		var $defaultLi = $('ul#tabs li').eq(_showTab).addClass('active');
+		$($defaultLi.find('a').attr('href')).siblings().hide();
+		
+		// 當 li 頁籤被點擊時...
+		// 若要改成滑鼠移到 li 頁籤就切換時, 把 click 改成 mouseover
+		$('ul#tabs li').click(function() {
+			// 找出 li 中的超連結 href(#id)
+			var $this = $(this),
+				_clickTab = $this.find('a').attr('href');
+			// 把目前點擊到的 li 頁籤加上 .active
+			// 並把兄弟元素中有 .active 的都移除 class
+			$this.addClass('active').siblings('.active').removeClass('active');
+			// 淡入相對應的內容並隱藏兄弟元素
+			$(_clickTab).stop(false, true).fadeIn().siblings().hide();
+
+			return false;
+		}).find('a').focus(function(){
+			this.blur();
+		});
+	});
+
 </script>
 <script src="script/wow.min.js"></script>
 <script>wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();</script>
