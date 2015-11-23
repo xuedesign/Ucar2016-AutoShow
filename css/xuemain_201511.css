@@ -183,6 +183,16 @@ nav h3{ display:none}
 	width:725px;
 	height:420px;
 	margin-bottom:17px}
+#slides .next, #slides .prev{
+	display:none;
+	position:absolute;
+	top:250px;
+	left:68px;
+	width:43px;
+	height:60px;
+	z-index:101}
+#slides .next{left:750px}
+#slides:hover .next, #slides:hover .prev{ display:block}		
 .slides_container {
 	display:block;
 	position:relative;
