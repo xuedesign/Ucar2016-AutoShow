@@ -111,7 +111,18 @@
                           <br class="clean">
                       </li>
                   </ul>
-              </div>  
+                  
+                  <ul id="morenews">
+                        <li><a href="#" title="2016臺北車展: Luxgen預告S3 EV+電動車首演">2016臺北車展: Luxgen預告S3 EV+電動車首演2016臺北車展: Luxgen預告S3 EV+電動車首演</a></li>
+                        <li><a href="#" title="被Toyota擠下，福斯前十月全球銷售量僅達826萬輛">被Toyota擠下，福斯前十月全球銷售量僅達826萬輛</a></li>
+                        <li><a href="#" title="2016臺北車展：Kia預告大改Sportage領軍登台">2016臺北車展：Kia預告大改Sportage領軍登台</a></li>
+                        <li><a href="#" title="公益路跑，Luxgen號召全民加入Running Love行列">公益路跑，Luxgen號召全民加入Running Love行列</a></li>
+                        <li><a href="#" title="公益路跑，Luxgen號召全民加入Running Love行列">公益路跑，Luxgen號召全民加入Running Love行列</a></li>
+                        <li><a href="#" title="2016臺北車展：Kia預告大改Sportage領軍登台">2016臺北車展：Kia預告大改Sportage領軍登台</a></li>
+                        <li><a href="#" title="公益路跑，Luxgen號召全民加入Running Love行列">公益路跑，Luxgen號召全民加入Running Love行列</a></li>
+                        <li><a href="#" title="公益路跑，Luxgen號召全民加入Running Love行列">公益路跑，Luxgen號召全民加入Running Love行列</a></li>
+                    </ul>
+              </div>
         </div><!--//end #box_complex-->
         
         
@@ -147,6 +158,8 @@
           	 <li><a href="brand_index.html" title="前往LEXUS品牌館"><img src="images/LOGO-02-S.png" alt="*"></a></li>
              <li class="mitsubishi"><a href="#" title="前往MITSUBISHI品牌館"><img src="images/LOGO-05-S.png" alt="*"></a></li>
              <li><a href="#" title="前往SUBARU品牌館"><img src="images/LOGO-06-S.png" alt="*"></a></li>
+             <li class="steelmate"><a href="#" title="STEEL MATE"><img src="images/LOGO-08-S.png" alt="*"></a></li>
+             <li class="vico"><a href="#" title="VICO VATION"><img src="images/LOGO-09-S.png" alt="*"></a></li>
              <li><a href="#" title="3M"><img src="images/LOGO-07-S.png" alt="*"></a></li>
           </ul>
           <br class="clean"> 
@@ -177,6 +190,8 @@ $(document).ready(function(){$(".fancybox").fancybox(),$(".fancybox-effects-a").
 <script>
 $(function(){var i=0,a=$("#tabs li").eq(i).addClass("active");$(a.find("a").attr("href")).siblings().hide(),$("#tabs li").click(function(){var i=$(this),a=i.find("a").attr("href");return i.addClass("active").siblings(".active").removeClass("active"),$(a).stop(!1,!0).fadeIn().siblings().hide(),!1}).find("a").focus(function(){this.blur()})});
 </script>
+<script src="script/readmore.js"></script>
+<script>$('#morenews').readmore({speed: 500});</script>
 <script src="script/wow.min.js"></script>
 <script>wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();</script>
 <script src="script/web_set.js"></script>

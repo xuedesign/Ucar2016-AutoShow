@@ -156,7 +156,7 @@ nav h3{ display:none}
 	text-indent:-9999px}
 #bar_brand h3 img{ height:36px; margin-top:8px}
 #bar_brand ul{ display:block; float:left; width:770px; margin:0; padding:0}	
-#bar_brand li{ width:135px; height:47px; margin:0 0 0 15px}
+#bar_brand li{ width:135px; height:47px; margin:0 0 0 5px}
 .bnav_01, .bnav_02, .bnav_03, .bnav_04, .bnav_05{
 	display:block;
 	width:135px;
@@ -340,14 +340,14 @@ nav h3{ display:none}
 .box_hot img{
 	display:block;
 	float:left;
-	width:221px;
-	height:150px;
+	width:210px;
+	height:140px;
 	margin-top:5px}
 .box_hot p{
 	display:block;
 	float:right;
 	width:215px;
-	height:150px;
+	height:135px;
 	overflow:hidden;
 	font-size:.813em;
 	line-height:22px;
@@ -368,10 +368,10 @@ nav h3{ display:none}
 	display:block;
 	position:absolute;
 	bottom:0;
-	width:920px;
+	width:1060px;
 	height:63px;
 	background:url(../images/bg_Sponsored.png) no-repeat;
-	padding:50px 0 0 290px}
+	padding:50px 0 0 150px}
 #box_sponsored h3{
 	display:block;
 	float:left;
@@ -391,7 +391,8 @@ nav h3{ display:none}
 	width:90px;
 	height:26px;
 	margin:0 8px}
-#box_sponsored li.mitsubishi{ width:150px}		
+#box_sponsored li.mitsubishi{ width:150px}
+#box_sponsored li.steelmate, #box_sponsored li.vico{ width:115px}		
 	
 /* 2.5 版權列 */
 footer{ 
@@ -535,9 +536,9 @@ footer p{
 	width:260px;
 	padding-bottom:20px}
 #newsest a>h4{ font-size:1em; line-height:22px; padding-bottom:10px}
-#newsest a>p{ font-size:.813em; line-height:20px; color:#2b2b2b}
+#newsest a>p{ font-size:.813em; line-height:20px; color:#2b2b2b; padding:8px 15px}
 #newsest a:hover{ text-decoration:none}
-#newsest img{ width:260px; height:auto}	
+#newsest img{ display:block; width:210px; height:auto; margin:0 auto}	
 
 /* 3-3. 圖片集 */
 #box_gallery, #box_gallerymain, #video_list{
@@ -672,7 +673,55 @@ footer p{
 #mook_cover img{ display:block; width:725px; height:auto}
 #mook_cover #page_article{ padding-top:15px}
 #mook_cover .callout_left, #mook_cover .callout_right{ margin-bottom:20px}
-#mook_cover .box_img img{ width:638px; height:auto}		
+#mook_cover .box_img img{ width:638px; height:auto}
+
+#bookmark{
+	display: block;
+	width:298px}
+.bookmark_cover img{ display:block; width:298px}	
+.sidelist {
+	display:block;
+	width:298px;
+	margin: 20px 0;
+	padding: 0}
+.listactive {
+	display:block;
+	width:278px;
+	background: #E0E0E0;
+	border-bottom: #A0A0A0 1px solid;
+	color: #404040;
+	font-size: .813em;
+	padding: 10px 10px 0px}
+.listactive:hover, .sidelist .select { background: #FFFFC0}
+.listactive:hover .list_number { color: #960000}
+.listactive .list_number {
+	font-size: 1em;
+	float: left;
+	width: 25px}
+.listactive .list_number span { font-weight: 100}
+.listactive .list_title { float: right; width: 250px}
+.listactive h3 a{
+	color: #024587;
+	font-size: 1.25em;
+	font-weight: 100;
+	line-height: 20px;
+	margin-bottom: 2px}
+.listactive .list_title img {	
+	display: inline;
+	position: relative;
+	margin-left: 4px;
+	top: 1px}
+.listactive .list_title p a { color: #404040}
+.listactive .list_more {
+	display:block;
+	width:258px;
+	padding:10px 10px 10px 30px}
+.listactive .list_more img{
+	display:block;
+	width:248px; 
+    border: #404040 1px solid}
+.listactive .list_more p { padding-right:15px}
+		
 
 /* 4. 車展報導
 -----------------------------------------------------------------------------------------------
@@ -714,72 +763,104 @@ footer p{
 #news_list{
 	display:block;
 	background:url(../images/bg_newslist.png) no-repeat;
-	width:617px; 
+	width:617px;
 	padding:87px 65px 30px 43px}
 #news_list li{ display:block; margin-bottom:20px}
 #news_list a>h4{ font-size:1.25em; line-height:25px; color:#024587; margin-bottom:15px}
 #news_list a:hover>h4{ color:#f50}
-#news_list img{ display:block; float:left; width:221px; height:150px}
-#news_list .news_info{ display:block; float:right; width:366px; height:140px; overflow:hidden}
+#news_list img{ display:block; float:left; width:210px; height:140px}
+#news_list .news_info{ display:block; float:right; width:376px; height:140px; overflow:hidden}
 .news_info p{ font-size:.938em; line-height:25px}
 .viewinfo{ color:#999; padding-bottom:15px}
+#news_list a.btn_more{
+	display:block;
+	width:70px;
+	margin:0 auto;
+	background:#f17724;
+	padding:5px 20px;
+	font-size:1em;
+	line-height:25px;
+	color:#FFF;
+	text-align:center}
+#news_list a.btn_more:hover{ text-decoration:none; background:#6C46AA}
+#morenews li{
+	height:25px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:22px;
+	background:url(../images/icon_purple.png) 0 6px no-repeat;
+	padding:0 0  0 15px;
+	margin-bottom:10px}	
 
 #banner_hotsale, #list_sale{ display:block; width:1008px; margin:0 auto 30px auto}
 #list_sale li{
 	display:block;
 	position:relative;
 	float:left;
-	width:392px;
-	height:412px;
-	background:url(../images/bg_salebox.png) no-repeat;
-	margin:0 25px 45px;
-	padding:17px 18px 21px 40px}
-#list_sale h4{
+	width:480px;
+	background:url(../images/bg_salebox.png) no-repeat #EFEFEF;
+	margin:0 10px 30px}
+#list_sale li h4{
 	display:block;
-	width:377px;
+	width:402px;
 	height:25px;
 	font-size:1.125em;
 	line-height:25px;
+	color:#e60012;
 	overflow:hidden;
-	padding-left:15px}
-#list_sale .product_info{
+	padding:17px 20px 0  58px;
+	margin-bottom:8px}
+#list_sale li h5{
 	display:block;
-	width:377px;
-	height:44px;
+	width:402px;
+	height:22px;
+	font-size:1em;
+	line-height:22px;
+	color:#172efb;
 	overflow:hidden;
-	padding:10px 0 0 15px;
-	margin-bottom:307px;
-	font-size:.813em;
-	line-height:22px}
-#list_sale img{
-	display:block;
-	position:absolute;
-	top:123px;
-	left:0;
-	width:450px;
-	height:255px}
-#list_sale .price{
+	padding:0 20px 0  58px;
+	margin-bottom:15px}
+#list_sale li img{
 	display:block;
 	float:left;
-	width:113px;
-	height:25px;
-	overflow:hidden;
-	padding-left:25px;
-	font-size:1.5em;
-	line-height:25px;
-	font-weight:bold;
-	color:#024587}
+	width:300px;
+	height:300px}	
 #list_sale .tool_buy{
 	display:block;
+	position:relative;
 	float:right;
-	width:254px;
-	text-align:right}
-#list_sale .tool_buy a, #list_sale .tool_buy div{ float:right}	
+	width:140px;
+	height:275px;
+	padding:15px 20px 10px;
+	background:#E3D6D1}
+#list_sale .product_info{
+	display:block;
+	width:140px;
+	height:180px;
+	overflow:hidden;
+	font-size:.813em;
+	line-height:22px}
+#list_sale .price{
+	display:block;
+	position:absolute;
+	bottom:55px;
+	left:30px;
+	width:95px;
+	height:36px;
+	background:url(../images/icon_money.png) no-repeat;
+	padding-left:45px;
+	font-size:1.5em;
+	line-height:36px;
+	font-weight:bold;
+	color:#024587}				
 #list_sale .tool_buy a{
 	display:block;
+	position:absolute;
+	bottom:15px;
+	left:65px;
 	width:60px;
 	height:25px;
-	margin-left:15px;
+	margin:0 auto;
 	background:#F17724;
 	font-size:1.125em;
 	line-height:25px;
@@ -788,6 +869,7 @@ footer p{
 	text-align:center;
 	letter-spacing:2px}
 #list_sale .tool_buy a:hover{ text-decoration:none; background:#6D47AB}
+
 
 /* 5. 車展必看
 -----------------------------------------------------------------------------------------------
@@ -855,18 +937,6 @@ footer p{
 	top:183px; 
 	left:-154px}
 #tabs li:nth-child(2):hover, #tabs li:nth-child(2).active, #tabs li.active a:hover{background:url(../images/btn_showmap.png) 0 -60px no-repeat}	
-/*#tabs li a{
-	display:block;
-	position:absolute;
-	width:60px;
-	height:60px;
-	background:url(../images/btn_showmap.png) no-repeat;
-	text-indent:-9999px}
-#tabs li a:hover, 
-#tabs li.active, 
-#tabs li.active a:hover{ background:url(../images/btn_showmap.png) 0 -60px no-repeat}
-#tabs li.pot_01{ position:absolute; top:196px; left:-445px}
-#tabs li.pot_02{ position:absolute; top:183px; left:-154px}*/
 .tab_container {display:block; width:410px; height:357px}
 .tab_container .tab_content h4{
 	display:block;
