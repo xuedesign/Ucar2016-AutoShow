@@ -197,7 +197,7 @@ nav h3{ display:none}
 	width:55px;
 	height:55px;
 	z-index:101}
-#slides .next{left:750px}
+#slides .next{left:738px}
 #slides:hover .next, #slides:hover .prev{ display:block}		
 .slides_container {
 	display:block;
