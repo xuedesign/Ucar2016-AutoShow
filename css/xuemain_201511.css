@@ -476,7 +476,7 @@ footer p{
 	line-height:28px;
 	color:#024587;
 	padding-bottom:8px}
-.callout_left, .callout_right{ font-size:.938em; line-height:22px; color:#727171; margin-bottom:40px}	
+.callout_left, .callout_right{ font-size:.938em; line-height:22px; color:#727171; margin-bottom:20px}	
 .callout_left{ display:block; float:left}
 .callout_right{ display:block; float:right}
 .callout_right>div{ display:inline-block; text-align:right}
@@ -669,8 +669,8 @@ footer p{
 	padding:2px 5px; 
 	margin: 2px; 
 	color: #ddd}
-#mook_cover{ display:block; float:left; width:725px}
-#mook_cover img{ display:block; width:725px; height:auto}
+#mook_cover{ display:block; width:1044px/*725px*/; margin-bottom:15px}
+#mook_cover img{ display:block; width:1044px; height:auto}
 #mook_cover #page_article{ padding-top:15px}
 #mook_cover .callout_left, #mook_cover .callout_right{ margin-bottom:20px}
 #mook_cover .box_img img{ width:638px; height:auto}
