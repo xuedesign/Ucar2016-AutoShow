@@ -900,10 +900,11 @@ footer p{
 	position:absolute;
 	bottom:0; 
 	right:0;
-	width:507px;
+	width:441px;
 	height:78px;
 	background:url(../images/bg_topic-link.png) no-repeat;
-	text-align:center;
+	padding-left:66px;
+	/*text-align:center;*/
 	color:#fff}
 #topic_link li{
 	display:inline;
