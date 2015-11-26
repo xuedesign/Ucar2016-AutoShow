@@ -244,8 +244,8 @@ nav h3{ display:none}
 #bar_news{
 	display:block;
 	width:570px;
-	height:98px;
-	background:url(../images/bg_news.png) no-repeat;
+	height:104px;
+	background:url(../images/bg_news.png) no-repeat #000028;
 	padding:22px 20px 0 135px}
 #bar_news li{
 	width:560px;
@@ -783,7 +783,7 @@ footer p{
 	color:#FFF;
 	text-align:center}
 #news_list a.btn_more:hover{ text-decoration:none; background:#6C46AA}
-#morenews li{
+#morenews li, #news_list2 li{
 	height:25px;
 	overflow:hidden;
 	font-size:.813em;
