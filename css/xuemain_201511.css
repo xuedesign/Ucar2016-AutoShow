@@ -485,9 +485,8 @@ footer p{
 #page_article p{ font-size:.938em; line-height:24px; padding-bottom:30px}
 .box_img{ display:block; border:1px solid #3D414A; margin-bottom:20px}
 .box_img img{ width:638px; height:auto}
-#page_article a.btn_back, #box_gallerymain a.btn_back{
+#page_article a.btn_back, #box_gallerymain a.btn_next{
 	display:block;
-	width:70px;
 	margin:0 auto;
 	background:#f17724;
 	padding:5px 20px;
@@ -495,7 +494,9 @@ footer p{
 	line-height:25px;
 	color:#FFF;
 	text-align:center}
-#page_article a.btn_back:hover, #box_gallery a.btn_back:hover{ text-decoration:none; background:#6C46AA}		
+#page_article a.btn_back{width:70px}
+#box_gallerymain a.btn_next{width:140px}	
+#page_article a.btn_back:hover, #box_gallerymain a.btn_next:hover{ text-decoration:none; background:#6C46AA}		
 .photocaption{ 
    display:block; 
    background:#3D414A; 
